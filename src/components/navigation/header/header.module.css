@@ -1,0 +1,65 @@
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #171717;
+}
+
+.header .headerContainer {
+  max-width: 1800px;
+  position: relative;
+  width: 100%;
+  height: 80px;
+}
+
+.header .logoContainer {
+  font-weight: 600;
+  position: absolute;
+  left: 50px;
+}
+
+.header .logoContainer span {
+  color: #31BE00;
+}
+
+.header .headerContent {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 50px;
+}
+
+.header .headerContent .optionsContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.header .headerContent .themeToggle ul {
+  list-style-type: none;
+}
+
+.header .headerContent .themeToggle ul li.light {
+  display: none;
+}
+
+.header .headerContent .optionsContainer .option {
+  padding-right: 15px;
+}
+
+.header .headerContent .hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+.header .headerContent .hamburger {
+  padding-left: 15px;
+  display: block;
+}
+
+.header .headerContent .optionsContainer {
+  display: none;
+}
+}
