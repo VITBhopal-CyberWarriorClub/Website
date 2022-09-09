@@ -1,0 +1,57 @@
+.terminalContainer {
+  background-color: #212121;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  min-height: 300px;
+}
+
+.header {
+  background-color: #383838;
+  height: 25px;
+  position: relative;
+}
+
+.header .heading {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.heading h3 {
+  font-weight: 500;
+  font-size: 15px;
+  margin: 0;
+}
+
+.optionsContainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  max-width: 60px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.optionsContainer p {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  padding-left: 10px;
+}
+
+.optionsContainer .red {
+  background-color: #FF5A5A;
+}
+
+.optionsContainer .yellow {
+  background-color: #F5C13A;
+}
+
+.optionsContainer .green {
+  background-color: #2A9E02;
+}

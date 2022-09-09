@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import Landing from '../components/landing/landing'
 import SiteHeader from '../components/navigation/header/header'
 import styles from '../styles/Home.module.css'
 
@@ -21,7 +22,7 @@ export default function Home() {
       <SiteHeader />
 
       <main className={styles.main}>
-        
+        <Landing />
       </main>
 
       <footer className={styles.footer}>
