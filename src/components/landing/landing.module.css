@@ -40,4 +40,8 @@
     .left, .right {
         width: 100%;
     }
+
+    .description {
+        max-width: unset !important;
+    }
 }
