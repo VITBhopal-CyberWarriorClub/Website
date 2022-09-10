@@ -1,8 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import AboutUs from '../components/about/about'
 import Landing from '../components/landing/landing'
 import SiteHeader from '../components/navigation/header/header'
+import ReachUs from '../components/reach/reach'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -23,11 +25,13 @@ export default function Home() {
 
       <main className={styles.main}>
         <Landing />
+        <AboutUs />
+        <ReachUs />
       </main>
 
-      <footer className={styles.footer}>
+      {/* <footer className={styles.footer}>
         
-      </footer>
+      </footer> */}
     </div>
   )
 }

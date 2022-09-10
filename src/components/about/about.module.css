@@ -1,0 +1,57 @@
+.about {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.aboutContainer {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h2 {
+    color: #31BE00;
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+.teamContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.member {
+    width: 250px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.memberContainer {
+    padding: 1rem;
+}
+
+.member .imageContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.member .image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.member .profile h5 {
+    font-size: 1rem;
+    color: #31BE00;
+}
