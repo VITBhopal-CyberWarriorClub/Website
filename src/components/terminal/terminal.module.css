@@ -1,16 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
+
 .terminalContainer {
   background-color: #212121;
   width: 100%;
   border-radius: 12px;
-  overflow: hidden;
   min-height: 300px;
   box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.42);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
 }
 
 .header {
   background-color: #383838;
   height: 30px;
   position: relative;
+  border-radius: 12px 12px 0 0;
 }
 
 .header .heading {
@@ -20,6 +25,8 @@
   height: 100%;
   display: flex;
   align-items: center;
+  font-family: "Courier Prime", monospace;
+
 }
 
 .heading h3 {
@@ -46,13 +53,43 @@
 }
 
 .optionsContainer .red {
-  background-color: #FF5A5A;
+  background-color: #ff5a5a;
 }
 
 .optionsContainer .yellow {
-  background-color: #F5C13A;
+  background-color: #f5c13a;
 }
 
 .optionsContainer .green {
-  background-color: #2A9E02;
+  background-color: #2a9e02;
 }
+
+.cmd {
+  align-self: end;
+  width: 100%;
+  min-height: 50px;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  font-family: "Courier Prime", monospace;
+  border-radius: 0 0 12px 12px;
+  background-color: #3f3f3f;
+  color: white;
+}
+
+
+.log {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  font-family: "Courier Prime", monospace ;
+  height: 220px;
+  max-height: 220px;
+  overflow-y: clip;
+  color: #31be00;
+}
+

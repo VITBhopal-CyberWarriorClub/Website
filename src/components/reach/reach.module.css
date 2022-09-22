@@ -1,6 +1,6 @@
 .reach {
     width: 100%;
-    background-color: #1f1f1f;
+    background-color: var(--backColor);
     display: flex;
     justify-content: center;
     padding: 3rem 0;
@@ -17,7 +17,7 @@
 .heading h2 {
     font-size: 2rem;
     text-align: center;
-    color: #31BE00;
+    color: var(--accent-color);
     margin-bottom: 0;
 }
 
@@ -25,6 +25,10 @@
     display: flex;
     justify-content: center;
     margin: 1rem 0;
+}
+
+.socialsContainer .links:hover{
+    color: var(--accent-color);
 }
 
 .socialsContainer a {
@@ -52,8 +56,8 @@
     width: 100%;
     font: inherit;
     outline: none;
-    background: #1f1f1f;
-    color: white;
+    background: var(--backColor2);
+    color: var(--textColor);
     border: 1px solid #e8e8e8;
     border-radius: 8px;
     transition: 0.2s ease-in-out;
@@ -62,11 +66,12 @@
 }
 
 .subscribeContainer input::placeholder {
-    color: #969696;
+    color: var(--textColor);
 }
 
 .subscribeContainer input:focus {
-    border: 1px solid #31BE00;
+    border: 1px solid var(--accent-color);
+    ;
     box-shadow: 0px 0px 2px 2px rgba(49, 190, 0, 0.15);
 }
 
@@ -85,7 +90,7 @@
     height: 36px;
     color: #ffffff;
     display: block;
-    background: #31BE00;
+    background: var(--accent-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.06),
         0px 1px 1px rgba(0, 0, 0, 0.08);
     border-radius: 8px;

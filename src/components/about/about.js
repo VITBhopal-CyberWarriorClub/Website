@@ -17,7 +17,7 @@ const Member = () => (
 
 export default function AboutUs() {
   return (
-    <div className={styles.about}>
+    <div className={styles.about} id="about">
         <div className={styles.aboutContainer}>
             <div className={styles.heading}>
                 <h2>About Us</h2>

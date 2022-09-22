@@ -3,7 +3,7 @@ import styles from './landing.module.css';
 
 export default function Landing() {
   return (
-    <div className={styles.landing}>
+    <div className={styles.landing} id="landing">
       <div className={styles.landingContainer}>
         <div className={styles.left}>
           <div className={styles.heading}>

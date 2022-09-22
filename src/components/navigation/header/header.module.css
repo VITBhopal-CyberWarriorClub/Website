@@ -1,8 +1,11 @@
 .header {
   width: 100%;
-  background-color: #171717;
+  background-color: var(--headerColor);
   display: flex;
   justify-content: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 
 .header .headerContainer {
@@ -21,7 +24,7 @@
 }
 
 .header .logoContainer span {
-  color: #31BE00;
+  color: var(--accent-color);
 }
 
 .header .headerContent {
@@ -30,18 +33,25 @@
   justify-content: center;
   align-items: center;
   padding-right: 1rem;
+
 }
 
 .header .headerContent .optionsContainer {
   display: flex;
   flex-direction: row;
+  padding-right: 1rem;
 }
 
-.header .headerContent .themeToggle ul {
-  list-style-type: none;
+.header .headerContent .optionsContainer .option:hover{
+  color: var(--accent-color);
+  transform: scale(1.05);
 }
 
-.header .headerContent .themeToggle ul li.light {
+.header .headerContent .themeToggle:hover {
+  color: var(--accent-color);
+}
+
+.header .headerContent .themeToggle div.light {
   display: none;
 }
 

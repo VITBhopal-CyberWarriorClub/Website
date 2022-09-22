@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     padding: 3rem 0;
+    background-color: var(--backColor2);
 }
 
 .aboutContainer {
@@ -18,7 +19,7 @@
 }
 
 .heading h2 {
-    color: #31BE00;
+    color: var(--accent-color);
     margin-top: 0;
     font-size: 2rem;
 }
@@ -32,7 +33,7 @@
 .member {
     width: 250px;
     text-align: center;
-    border: 1px solid white;
+    border: 1px solid var(--textColor);
     border-radius: 8px;
 }
 
@@ -53,5 +54,5 @@
 
 .member .profile h5 {
     font-size: 1rem;
-    color: #31BE00;
+    color: var(--accent-color);
 }

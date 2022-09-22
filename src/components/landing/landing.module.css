@@ -1,9 +1,12 @@
 .landing {
-    padding: 3rem 0;
-    background-color: #1f1f1f;
+    background-color: var(--backColor);
     width: 100%;
     display: flex;
+    align-items: center;
     justify-content: center;
+    flex-direction: row;
+    flex: 1;
+    min-height: 100%;
 }
 
 .landingContainer {
@@ -19,7 +22,7 @@
 
 .heading h1 {
     font-weight: 600;
-    color: #31BE00;
+    color: var(--accent-color);
     margin: 0;
 }
 
