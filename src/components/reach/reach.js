@@ -17,18 +17,18 @@ export default function ReachUs() {
                 <h2>Reach Us</h2>
             </div>
             <div className={styles.socialsContainer}>
-                <Link href='' target="_blank" passHref>
-                    <a className={styles.links}>
+                <Link href='https://www.instagram.com/vitb_cwc/' passHref>
+                    <a target="_blank" className={styles.links}>
                         <i className='fa fa-instagram' />
                     </a>
                 </Link>
-                <Link href='' target="_blank" passHref>
-                    <a className={styles.links} >
+                <Link href='https://www.linkedin.com/company/cyberwarriors-vitb/mycompany/'  passHref>
+                    <a target="_blank" className={styles.links} >
                         <i className='fa fa-linkedin-square' />
                     </a>
                 </Link>
-                <Link href='' target="_blank" passHref>
-                    <a className={styles.links}>
+                <Link href='https://github.com/VITBhopal-CyberWarriorClub'  passHref>
+                    <a target="_blank" className={styles.links}>
                         <i className='fa fa-github' />
                     </a>
                 </Link>

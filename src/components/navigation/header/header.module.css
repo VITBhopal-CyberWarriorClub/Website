@@ -1,3 +1,5 @@
+
+
 .header {
   width: 100%;
   background-color: var(--headerColor);
@@ -21,6 +23,14 @@
 .header .logoContainer {
   font-weight: 600;
   padding-left: 1rem;
+
+}
+
+.header .logoContainer :hover{
+  transform: scale(0.9);
+  color: white;
+  -webkit-filter: url("filter.svg#glitch");
+  filter: url("filter.svg#glitch");
 }
 
 .header .logoContainer span {
@@ -44,7 +54,7 @@
 
 .header .headerContent .optionsContainer .option:hover{
   color: var(--accent-color);
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .header .headerContent .themeToggle:hover {

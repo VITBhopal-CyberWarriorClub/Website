@@ -1,7 +1,7 @@
 import Terminal from '../terminal/terminal';
 import styles from './landing.module.css';
 
-export default function Landing() {
+export default function Landing({switchTheme}) {
   return (
     <div className={styles.landing} id="landing">
       <div className={styles.landingContainer}>
@@ -15,7 +15,7 @@ export default function Landing() {
           </p>
         </div>
         <div className={styles.right}>
-          <Terminal />
+          <Terminal switchTheme={switchTheme}/>
         </div>
       </div>
     </div>

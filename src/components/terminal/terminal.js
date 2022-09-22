@@ -4,7 +4,7 @@ import styles from './terminal.module.css';
 
 
 
-export default function Terminal() {
+export default function Terminal({switchTheme}) {
 
   const [log, setLog] = useState(null);
 
@@ -15,6 +15,7 @@ export default function Terminal() {
         const newlog = ["type \"/goto about/contact\" to navigate",
          "\"/theme-color hexcode\" to change the accent color", "\"/switch-theme\" to switch between light and dark mode"]
          setLog(newlog)
+         e.target.value=""
          return
       }
       let newLog;
@@ -30,7 +31,7 @@ export default function Terminal() {
       setLog(newLog)
 
       if(e.target.value == "/switch-theme"){
-
+        switchTheme()
       }
       
       if (e.target.value == "/goto about") {
@@ -66,7 +67,7 @@ export default function Terminal() {
   if (log != null) {
     logs = log.map(elem => {
       return (
-        <div>
+        <div key={elem}>
         <span style={{color:"white"}}> $</span>: {elem}
         </div>
       )
