@@ -67,6 +67,7 @@ export default function Terminal({switchTheme}) {
   if (log != null) {
     logs = log.map(elem => {
       return (
+        
         <div key={elem}>
         <span style={{color:"white"}}> $</span>: {elem}
         </div>
