@@ -39,10 +39,11 @@ export default function AboutUs() {
                 </div>
                 <div className={styles.teamContainer}>
 
+                <Member name = "Dr. Prabu M" title = "Faculty Coordinator" info = "Dr. Prabu M is an alumnus of VIT University, Vellore, where he obtained a Ph.D. with support from ISRO-SAC, Ahmedabad. He has over twelve years of experience including two years at Loyola College in Chennai, seven years at VIT University-Vellore, and three years at CHRIST (Deemed to be University) -Bangalore."/>
                   <Member name="Sumon Nath" title="Founder" info="Bugxploit a person who exploits the bugs" />
                     <Member name="G.S.V. Prharsha" title="Founder" info="A simple guy with a keen interest in OSINT, reverse engineering, malware analysis, and cloud security." />
                     <Member name="Mahendra Kumar" title="Secretary and Club's Technical Supervisor" info="I am a pre-final CSE cyber security student. My domain of interest in cyber is web and network security and also have projects and research in these domains. I like problem solving and I am a 4 star coder on codechef. Pro hacker on HTB. Practical learning is what I believe in." />
-
+                    <Member name = "Kapil Kataria" title="Technical Lead" info="I'm a intermediate programmer and CTF player with strong passion to learn and grow.Stock Market Investing,  Pentesting and cloud security are my area of interest."/>
                     <Member name="Rishabh Rai" title="Hacker's Squad Lead" info="I am a curious guy and always ready to learn more about any topic that interests me in any aspect. I have interests in crypto, cloud computing and networks with a bit of scripting." />
 
                     <Member name="Ayush Juneja" title="Hacker's Squad Lead" info="I have a keen interest in the cyber field and I have hands on experience in the same. Other than this I'm a bug hunter starving to help others by securing them." />
