@@ -35,13 +35,17 @@
 }
 
 .member {
-  min-width: 30%;
+  min-width: 25%;
+  height: 40vh;
   text-align: center;
   border: 1px solid var(--textColor);
   border-radius: 8px;
-  margin-right: 5%;
+  margin-right: 10%;
   z-index: 1;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .overlay{
@@ -53,7 +57,8 @@
   border-radius: 8px;
   background-color: rgb(255, 255, 255);
   z-index: 3;
-  padding-top: 30%;
+  padding: 20% 4% 0% 4%;
+
   text-align: center;
   color: var(--accent-color);
   opacity: 0;
