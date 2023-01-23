@@ -1,11 +1,11 @@
 import Link from 'next/link';
 import styles from './reach.module.css';
 
-function setColor(e){
-    e.preventDefault()
-    console.log("RUNNING")
-    document.documentElement.style.setProperty("--accent-color", "blue");
-}
+// function setColor(e){
+//     e.preventDefault()
+//     console.log("RUNNING")
+//     document.documentElement.style.setProperty("--accent-color", "blue");
+// }
 
 export default function ReachUs() {
 
@@ -36,7 +36,7 @@ export default function ReachUs() {
             <div className={styles.subscribeContainer}>
                 <h3>Subscribe</h3>
                 <input type="email" placeholder="john@example.com" />
-                <button className={styles.button} onClick={setColor}>Subscribe</button>
+                <button className={styles.button}>Subscribe</button>
             </div>
         </div>
     </div>

@@ -39,11 +39,17 @@ export default function AboutUs() {
                 </div>
                 <div className={styles.teamContainer}>
                     <Member name="Dr. Azath. H" title="Faculty Coordinator" info="Dr. H. AZATH, Senior Assistant Professor Grade 2, VIT Bhopal University, INDIA. Dr. H. Azath received his degrees Ph.D, ME, BE in the field of Computer Science & Engineering and M.TECH-IT, MBA in Education Management. He has 16+ years of academic experience under various capacities in India and Abroad." />
-                    <Member name = "Dr. Prabu M" title = "Faculty Co-Coordinator" info = "Dr. Prabu M is an alumnus of VIT University, Vellore, where he obtained a Ph.D. with support from ISRO-SAC, Ahmedabad. He has over twelve years of experience including two years at Loyola College in Chennai, seven years at VIT University-Vellore, and three years at CHRIST (Deemed to be University) -Bangalore."/>
+
+                    <Member name="Dr. Prabu M" title = "Faculty Co-Coordinator" info = "Dr. Prabu M is an alumnus of VIT University, Vellore, where he obtained a Ph.D. with support from ISRO-SAC, Ahmedabad. He has over twelve years of experience including two years at Loyola College in Chennai, seven years at VIT University-Vellore, and three years at CHRIST (Deemed to be University) -Bangalore."/>
+
                     <Member name="Sumon Nath" title="Founder" info="Bugxploit a person who exploits the bugs" />
+
                     <Member name="G.S.V. Prharsha" title="Founder" info="A simple guy with a keen interest in OSINT, reverse engineering, malware analysis, and cloud security." />
+
                     <Member name="Mahendra Kumar" title="Secretary and Club's Technical Supervisor" info="I am a pre-final CSE cyber security student. My domain of interest in cyber is web and network security and also have projects and research in these domains. I like problem solving and I am a 4 star coder on codechef. Pro hacker on HTB. Practical learning is what I believe in." />
-                    <Member name = "Kapil Kataria" title="Technical Lead" info="I'm a intermediate programmer and CTF player with strong passion to learn and grow.Stock Market Investing,  Pentesting and cloud security are my area of interest."/>
+
+                    <Member name="Kapil Kataria" title="Technical Lead" info="I'm a intermediate programmer and CTF player with strong passion to learn and grow.Stock Market Investing,  Pentesting and cloud security are my area of interest."/>
+
                     <Member name="Rishabh Rai" title="Hacker's Squad Lead" info="I am a curious guy and always ready to learn more about any topic that interests me in any aspect. I have interests in crypto, cloud computing and networks with a bit of scripting." />
 
                     <Member name="Ayush Juneja" title="Hacker's Squad Lead" info="I have a keen interest in the cyber field and I have hands on experience in the same. Other than this I'm a bug hunter starving to help others by securing them." />
@@ -91,6 +97,7 @@ My curiosity is extreme, about people and their work . " />
                     <Member name="Shikhar Agarwal" title="Outreach Team" info="Hi ! I am pursuing Computer Science and Engineering at VIT Bhopal. I am interested in acquiring new skills and passionate about management related work." />
 
                     <Member name="Pranav Maheshwari" title="Outreach Team" info="I am offering extraordinary communication and leadership skills and the crucial ability to operate in stressful and deadline-driven business environments h I am a fresher, I am a good and enthusiastic learner and highly trainable also Being a Engineering Student I have a good knowledge of Basic Foundation Programing Language i.e. C, C++, core java and DSA, My SQL and DBMS " />
+
                     <Member name="Anurag Sourav" title="Research Team lead" info="This is Anurag Sourav a pre- final year CSE student. I am a cyber security enthusiast and security researcher . Open to new experiences and ready to learn." />
 
                     <Member name="Varun Nair" title="Research Team" info="I describe myself as confident and responsible. I believe having good communication skills makes me a good team player and being calm under pressure helps me solve any problem quickly and accurately." />
@@ -98,8 +105,6 @@ My curiosity is extreme, about people and their work . " />
                     <Member name="Kunal Attri" title="Research Team" info="Highly motivated student looking forward to develop efficient technologies!" />
 
                     <Member name="Shraddha Pandey" title="Research Team" info="I'm doing an Integrated MTech in CSE with a focus in Cyber Security at VIT in Bhopal. I find a career in security to be both challenging and fascinating, and I am passionate to contribute to enhancing security." />
-
-
 
                     <Member name="Hemal Shingloo" title="Social media lead" info="Front End developer, Logo designing, C++, and Python. Interested in Software Development. Can bring good ideas to the table and have an innovative and learning mind" />
 
