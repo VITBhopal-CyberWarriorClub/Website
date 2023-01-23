@@ -14,10 +14,10 @@ const Member = (props) => {
 
     return (
         <div className={styles.member} onMouseEnter={changeInfo} onMouseLeave={changeInfo}>
-            {isInfo && <div className={styles.overlay}>{props.info}</div>}
+            {isInfo && <div className={styles.overlay}><p>{props.info}</p></div>}
             <div className={styles.memberContainer}>
                 <div className={styles.imageContainer}>
-                    <Image className={styles.image} width={100} height={100} alt='' src= {require(`../../dp/${props.name}.jpg`)} />
+                    <Image className={styles.image} width={100} height={100} alt='' src= {require(`../../dp/${props.name}_cropped (1).jpeg`)} />
                 </div>
                 <div className={styles.profile}>
                     <h4>{props.name}</h4>
