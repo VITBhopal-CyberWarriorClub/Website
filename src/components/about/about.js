@@ -59,6 +59,11 @@ I am having experience in Web-app security and Vulnerability Assessment. I am ex
 
                     <Member name="Sanidhya Soni" title="Hacker's Squad" info="I can be best described as an ingenious tech nerd turned infosec enthusiast and bug hunter , someone who is keen to learn new technologies as well as how to break them through hard work." />
 
+                    <Member name="Abhinay Prakash Reddy" title="Web Development Team" info="Myself Tech explorer , Problem Solver, Mr.Calm , Web developer, Blockchain dev, web 3.0 enthusiastic. competitive  Coder" />
+
+                    <Member name="Bharath D" title="Web Development Team" info="I am a web developer, working on improving my skills and securing the sites I build by learning cyber security." />
+
+                    <Member name="Aryan Rana" title="Web Development Team" info="Myself Aryan Rana, I am doing my undergrad from VIT Bhopal, CSE core department.I am a React developer currently learning flutter.." />
 
                     <Member name="Shefali Jain" title="Content Team" info="I'm in Content team" />
 
@@ -76,10 +81,7 @@ I am having experience in Web-app security and Vulnerability Assessment. I am ex
     
                     <Member name="Atisha Shrivas" title="Event Management Team" info="I am optimistic, responsible, and social person. I am self-reliant,  well-behaved, and above all a person of strong character.  " />
 
-
-
-
-                 <Member name="Utkarsh Singh" title="Multimedia Team" info="So, talking about myself I am interested in UX designing, editing, Photoshop and also have a keen interest in Sports. " />
+                    <Member name="Utkarsh Singh" title="Multimedia Team" info="So, talking about myself I am interested in UX designing, editing, Photoshop and also have a keen interest in Sports. " />
 
                     <Member name="Ayan Panda" title="Multimedia Team" info="I am a talented, ambitious and hardworking individual, with broad skills.
 My curiosity is extreme, about people and their work . " />
@@ -101,9 +103,7 @@ My curiosity is extreme, about people and their work . " />
 
                     <Member name="Hemal Shingloo" title="Social media lead" info="Front End developer, Logo designing, C++, and Python. Interested in Software Development. Can bring good ideas to the table and have an innovative and learning mind" />
 
-                    <Member name="Aryan Rana" title="Web Development Team" info="Myself Aryan Rana, I am doing my undergrad from VIT Bhopal, CSE core department.I am a React developer currently learning flutter.." />
 
-                    <Member name="Abhinay Prakash Reddy" title="Web Development Team" info="Myself Tech explorer , Problem Solver, Mr.Calm , Web developer, Blockchain dev, web 3.0 enthusiastic. competitive  Coder" />
 
 
 

@@ -35,7 +35,8 @@
 }
 
 .member {
-  min-width: 25%;
+  width: 25%;
+  min-width: 250px;
   height: 40vh;
   text-align: center;
   border: 1px solid var(--textColor);
