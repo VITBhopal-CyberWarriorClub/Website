@@ -29,6 +29,10 @@
     padding: 1rem 0;
 }
 
+.eventdescription p {
+    max-width: 95%;
+}
+
 .eventdescription span {
     color: crimson;
 }

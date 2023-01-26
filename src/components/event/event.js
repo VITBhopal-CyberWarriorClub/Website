@@ -15,6 +15,7 @@ export default function EventComponent() {
         <img className={styles.image} src="/event.png" alt="Event Image" />
       </div>
       <div className={styles.eventdescription}>
+        <p>
 Get ready to put your skills to the test! 🔥 <br />
 From here on, the evil 😈 gets real! <br />
 <br />
@@ -52,6 +53,7 @@ Link: <a href="https://forms.gle/kwdPHRrtcFbN3yxH6" rel="noreferrer" target="_bl
 Contact Details:  <br />
 Mahendra Kumar: <a href="mailto:mahendra.kumar2020@vitbhopal.ac.in">mahendra.kumar2020@vitbhopal.ac.in</a>  <br />
 Shridhar Pandey: <a href="mailto:shridhar.pandey2020@vitbhopal.ac.in">shridhar.pandey2020@vitbhopal.ac.in</a> <br />
+        </p>
       </div>
     </div>
   );
