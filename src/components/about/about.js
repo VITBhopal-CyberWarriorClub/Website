@@ -21,7 +21,7 @@ const Member = (props) => {
                 </div>
                 <div className={styles.profile}>
                     <h4>{props.name}</h4>
-                    <h5 style={{ color: "white", }}>{props.title}</h5>
+                    <h5 style={{ color: "var(--textColor)", }}>{props.title}</h5>
                 </div>
             </div>
         </div>)

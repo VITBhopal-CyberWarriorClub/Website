@@ -5,29 +5,6 @@ import { useState } from 'react'
 import EventComponent from '../components/event/event'
 
 export default function Home() {
-
-  const [theme, setTheme] = useState("dark");
-
-  const switchTheme = () => {
-    if (theme == "light") {
-      document.documentElement.style.setProperty("--backColor2", "black")
-      document.documentElement.style.setProperty("--backColor", "#1f1f1f")
-      document.documentElement.style.setProperty("--textColor", "white")
-      document.documentElement.style.setProperty("--headerColor", "#171717")
-
-      setTheme("dark")
-    }
-    else {
-      document.documentElement.style.setProperty("--backColor2", "#ffffff")
-      document.documentElement.style.setProperty("--backColor", "#dbdada")
-      document.documentElement.style.setProperty("--textColor", "black")
-      document.documentElement.style.setProperty("--headerColor", "#e4e4e4")
-
-      setTheme("light")
-
-    }
-  }
-
   return (
     <div className={styles.container}>
       <Head>
@@ -41,7 +18,7 @@ export default function Home() {
         <meta property="og:image" content={`${process.env.NEXT_PUBLIC_URL}/favicon.jpg`} />
       </Head>
 
-      <SiteHeader switchTheme={switchTheme}/>
+      <SiteHeader />
 
       <main className={styles.main}>
         <EventComponent />

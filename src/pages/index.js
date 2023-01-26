@@ -6,30 +6,14 @@ import Landing from '../components/landing/landing'
 import SiteHeader from '../components/navigation/header/header'
 import ReachUs from '../components/reach/reach'
 import styles from '../styles/Home.module.css'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 export default function Home() {
 
   const [theme, setTheme] = useState("dark");
 
   const switchTheme = () => {
-    if (theme == "light") {
-      document.documentElement.style.setProperty("--backColor2", "black")
-      document.documentElement.style.setProperty("--backColor", "#1f1f1f")
-      document.documentElement.style.setProperty("--textColor", "white")
-      document.documentElement.style.setProperty("--headerColor", "#171717")
-
-      setTheme("dark")
-    }
-    else {
-      document.documentElement.style.setProperty("--backColor2", "#ffffff")
-      document.documentElement.style.setProperty("--backColor", "#dbdada")
-      document.documentElement.style.setProperty("--textColor", "black")
-      document.documentElement.style.setProperty("--headerColor", "#e4e4e4")
-
-      setTheme("light")
-
-    }
+    document.querySelector('#themetoggle').click();
   }
 
   return (
