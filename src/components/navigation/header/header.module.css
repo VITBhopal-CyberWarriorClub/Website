@@ -74,12 +74,32 @@
 }
 
 @media screen and (max-width: 576px) {
-.header .headerContent .hamburger {
-  padding-left: 15px;
-  display: block;
-}
+  .header .headerContent .hamburger {
+    padding-left: 15px;
+    display: block;
+  }
 
-.header .headerContent .optionsContainer {
-  display: none;
-}
+  .header .headerContent .optionsContainer {
+    width: 100%;
+    padding: 0 15px;
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background-color: var(--headerColor);
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+  }
+
+  .header .headerContent .optionsContainer.active {
+    display: flex;
+  }
+
+  .header .headerContent .optionsContainer .option:hover{
+    color: var(--accent-color);
+    transform: scale(1.1) translateX(20px);
+  }
 }

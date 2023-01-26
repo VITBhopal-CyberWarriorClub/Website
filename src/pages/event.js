@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import SiteHeader from '../components/navigation/header/header'
 import styles from '../styles/Home.module.css'
-import { useState } from 'react'
+import ReachUs from '../components/reach/reach'
 import EventComponent from '../components/event/event'
 
 export default function Home() {
@@ -22,6 +22,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <EventComponent />
+        <ReachUs />
       </main>
 
       {/* <footer className={styles.footer}>

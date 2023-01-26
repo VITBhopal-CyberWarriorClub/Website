@@ -61,13 +61,21 @@ export default function SiteHeader() {
         </div>
         <div className={styles.headerContent}>
           <div className={styles.optionsContainer}>
-            <a className={styles.option} href="#about">
-              About
-            </a>
-            {/*   <a className={styles.option}>Cyber Games</a>*/}
-            <a className={styles.option} href="#contact">
-              Contact Us
-            </a>
+            <Link href="/event" passHref>
+              <a className={styles.option} onClick={() => {document.querySelector(`.${styles.optionsContainer}`).classList.remove(styles.active)}}>
+                Event
+              </a>
+            </Link>
+            <Link href="/#about" passHref>
+              <a className={styles.option} onClick={() => {document.querySelector(`.${styles.optionsContainer}`).classList.remove(styles.active)}}>
+                About
+              </a>
+            </Link>
+            <Link href="/#contact" passHref>
+              <a className={styles.option} onClick={() => {document.querySelector(`.${styles.optionsContainer}`).classList.remove(styles.active)}}>
+                Contact Us
+              </a>
+            </Link>
           </div>
           <div className={styles.themeToggle} id="themetoggle" onClick={switchTheme}>
           <i className="fa fa-sun-o" />
@@ -75,7 +83,7 @@ export default function SiteHeader() {
               <i className="fa fa-moon" />
             </div>
           </div>
-          <div className={styles.hamburger}>
+          <div className={styles.hamburger} onClick={() => {document.querySelector(`.${styles.optionsContainer}`).classList.toggle(styles.active)}}>
             <i className="fa fa-bars" />
           </div>
         </div>

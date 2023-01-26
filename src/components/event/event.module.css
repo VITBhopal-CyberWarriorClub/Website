@@ -1,20 +1,11 @@
 .eventcontainer {
-    background-color: var(--backColor);
-    width: 800px;
-    max-width: 90%;
+    background-color: var(--backColor2);
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     flex: 1;
-}
-
-.heading {
-
-}
-
-.subheading {
-
 }
 
 .eventimage {

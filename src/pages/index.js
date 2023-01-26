@@ -1,17 +1,11 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
 import AboutUs from '../components/about/about'
 import Landing from '../components/landing/landing'
 import SiteHeader from '../components/navigation/header/header'
 import ReachUs from '../components/reach/reach'
 import styles from '../styles/Home.module.css'
-import { useEffect, useState } from 'react'
 
 export default function Home() {
-
-  const [theme, setTheme] = useState("dark");
-
   const switchTheme = () => {
     document.querySelector('#themetoggle').click();
   }
