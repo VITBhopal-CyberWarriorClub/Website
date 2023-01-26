@@ -54,6 +54,8 @@
     padding: 0 12px;
     display: block;
     width: 100%;
+    max-width: 95%;
+    align-self: center;
     font: inherit;
     outline: none;
     background: var(--backColor2);
