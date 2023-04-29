@@ -17,7 +17,7 @@ const Member = (props) => {
             {isInfo && <div className={styles.overlay}><p>{props.info}</p></div>}
             <div className={styles.memberContainer}>
                 <div className={styles.imageContainer}>
-                    <Image className={styles.image} width={100} height={100} alt='' src= {require(`../../dp/${props.name}_cropped (1).jpeg`)} />
+                    <Image className={styles.image} width={100} height={100} alt='' src={require(`../../dp/${props.name}_cropped (1).jpeg`)} />
                 </div>
                 <div className={styles.profile}>
                     <h4>{props.name}</h4>
@@ -40,7 +40,7 @@ export default function AboutUs() {
                 <div className={styles.teamContainer}>
                     <Member name="Dr. Azath. H" title="Faculty Coordinator" info="Dr. H. AZATH, Senior Assistant Professor Grade 2, VIT Bhopal University, INDIA. Dr. H. Azath received his degrees Ph.D, ME, BE in the field of Computer Science & Engineering and M.TECH-IT, MBA in Education Management. He has 16+ years of academic experience under various capacities in India and Abroad." />
 
-                    <Member name="Dr. Prabu M" title = "Faculty Co-Coordinator" info = "Dr. Prabu M is an alumnus of VIT University, Vellore, where he obtained a Ph.D. with support from ISRO-SAC, Ahmedabad. He has over twelve years of experience including two years at Loyola College in Chennai, seven years at VIT University-Vellore, and three years at CHRIST (Deemed to be University) -Bangalore."/>
+                    <Member name="Dr. Prabu M" title="Faculty Co-Coordinator" info="Dr. Prabu M is an alumnus of VIT University, Vellore, where he obtained a Ph.D. with support from ISRO-SAC, Ahmedabad. He has over twelve years of experience including two years at Loyola College in Chennai, seven years at VIT University-Vellore, and three years at CHRIST (Deemed to be University) -Bangalore." />
 
                     <Member name="Sumon Nath" title="Founder" info="Bugxploit a person who exploits the bugs" />
 
@@ -48,7 +48,7 @@ export default function AboutUs() {
 
                     <Member name="Mahendra Kumar" title="Secretary and Club's Technical Supervisor" info="I am a pre-final CSE cyber security student. My domain of interest in cyber is web and network security and also have projects and research in these domains. I like problem solving and I am a 4 star coder on codechef. Pro hacker on HTB. Practical learning is what I believe in." />
 
-                    <Member name="Kapil Kataria" title="Technical Lead" info="I'm a intermediate programmer and CTF player with strong passion to learn and grow.Stock Market Investing,  Pentesting and cloud security are my area of interest."/>
+                    <Member name="Kapil Kataria" title="Technical Lead" info="I'm a intermediate programmer and CTF player with strong passion to learn and grow.Stock Market Investing,  Pentesting and cloud security are my area of interest." />
 
                     <Member name="Rishabh Rai" title="Hacker's Squad Lead" info="I am a curious guy and always ready to learn more about any topic that interests me in any aspect. I have interests in crypto, cloud computing and networks with a bit of scripting." />
 
@@ -64,7 +64,7 @@ I am having experience in Web-app security and Vulnerability Assessment. I am ex
                     <Member name="Akshat Roy" title="Hacker's Squad" info="I am a cybersecurity enthusiast who likes working in the field of network security and cloud security." />
 
                     <Member name="Sanidhya Soni" title="Hacker's Squad" info="I can be best described as an ingenious tech nerd turned infosec enthusiast and bug hunter , someone who is keen to learn new technologies as well as how to break them through hard work." />
-
+                    <Member name="Ranjan" title="Web Development Team" info="I am a Full Stack Developer and a Game Dev with a great fascination with the creative process. I love bringing mine and other people's ideas to life."/>
                     <Member name="Abhinay Prakash Reddy" title="Web Development Team" info="Myself Tech explorer , Problem Solver, Mr.Calm , Web developer, Blockchain dev, web 3.0 enthusiastic. competitive  Coder" />
 
                     <Member name="Bharath D" title="Web Development Team" info="I am a web developer, working on improving my skills and securing the sites I build by learning cyber security." />
@@ -84,7 +84,7 @@ I am having experience in Web-app security and Vulnerability Assessment. I am ex
                     <Member name="Varun Shukla" title="Event Management Lead" info="I am Varun Shukla ... passionate about self development and a team person who loves to work in teams" />
 
                     <Member name="Garima Singh" title="Event Management Team" info="Creative and hardworking student. I enjoy working and collaborating with others. I am Self - motivated, easy going and solution oriented person." />
-    
+
                     <Member name="Atisha Shrivas" title="Event Management Team" info="I am optimistic, responsible, and social person. I am self-reliant,  well-behaved, and above all a person of strong character.  " />
 
                     <Member name="Utkarsh Singh" title="Multimedia Team" info="So, talking about myself I am interested in UX designing, editing, Photoshop and also have a keen interest in Sports. " />
